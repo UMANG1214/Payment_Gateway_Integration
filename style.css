@@ -1,0 +1,48 @@
+body{
+    background-image:url('3766691.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+}
+.navbar{
+    width:100%;
+    background-color:black;
+    overflow:auto;
+}
+.navbar a{
+    float:left;
+    padding:12px;
+    color:white;
+    text-decoration:none;
+    font-size:20px;
+    font-family:algerian;
+}
+.active{
+    background-color:#808080;
+}
+.vertical-center{
+    margin:0;
+    display:inline;
+    position: relative;
+    top:-35px;
+    left:70rem;
+    -ms-transform:translateY(-50%);
+    transform:translateY(-50%);
+    height:90px;
+}
+.block{
+    display:block;
+    border:solid;
+    border-color:black;
+    background-color:blue;
+    padding:14px 28px;
+    cursor:pointer;
+    text-align:center;
+}
+@media only screen and (max-width:300px){
+    .text{
+        font-size:11px;
+    }
+}
+.center{
+  float: center;
+}

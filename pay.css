@@ -1,0 +1,32 @@
+html{
+  overflow: hidden;
+}
+body{
+    background-image:url('pay.jpg');
+    background-attachment:fixed;
+    background-size:cover;
+}
+h1{
+    text-align:center;
+    text-transform:uppercase;
+    color:white;
+    font-family:serif;
+    font-style:normal;
+    font-weight:"bolder";
+    animation-name: ease;
+    animation-duration: 4s;
+    animation-delay: -2s;
+}
+h3{
+    text-indent:0px;
+    text-align:left;
+    letter-spacing:0px;
+    font-style:bold;
+    font-weight:bolder;
+    font-style:normal;
+}
+.data form{
+    position:relative;
+    top:200px;
+    left:80%;
+}
